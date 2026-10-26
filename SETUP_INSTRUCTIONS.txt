@@ -1,0 +1,38 @@
+RECOIL ARENA — PRIVACY POLICY AND SUPPORT WEBSITE
+Cyber Titan Games | 25 October 2026
+
+READY-TO-PUBLISH WEBSITE — NO GODOT GAME FILES OR APP BUILD SETTINGS ARE MODIFIED.
+
+USE A SEPARATE PUBLIC GITHUB REPOSITORY SO YOUR GAME SOURCE CAN STAY PRIVATE:
+1. Sign in to GitHub as cybertitan088.
+2. Click + (upper-right) > New repository.
+3. Repository name: recoil-arena-support
+4. Visibility: Public. Create the repository.
+5. On the empty repository webpage choose "uploading an existing file" (or Add file > Upload files).
+6. From this extracted ZIP, upload the following items, at repository ROOT:
+   index.html, privacy.html, support.html, .nojekyll, and the whole assets folder.
+   You can keep this README text outside the repo if preferred.
+7. Commit changes.
+8. In the new repository: Settings > Pages.
+   Under Build and deployment set Source = Deploy from a branch,
+   Branch = main, Folder = /(root), and click Save.
+9. After GitHub Pages reports publication, open the policy URL in a browser:
+   https://cybertitan088.github.io/recoil-arena-support/privacy.html
+   The page MUST be publicly accessible before using it in App Store Connect.
+
+RECOIL ARENA POLICY URL (use only AFTER the page is live):
+https://cybertitan088.github.io/recoil-arena-support/privacy.html
+
+RECOIL ARENA SUPPORT URL:
+https://cybertitan088.github.io/recoil-arena-support/support.html
+
+OPEN THE POLICY IN THE PHONE BROWSER FIRST TO VERIFY ACCESS.
+Then enter this exact URL in the GitHub Recoil Arena iOS build workflow's
+privacy_policy_url field and in App Store Connect > Recoil Arena > App Privacy.
+
+REVIEW BEFORE LAUNCH:
+- Confirm the published contact email bryandes@me.com is still current.
+- Confirm no extra analytics/ad/third-party SDK has been added since G20R6.
+- Confirm the signed iOS app's data practices match this policy and your App Privacy answers.
+- Keep the page public even if the game source code repository is private.
+- This draft describes existing features, not a legal certification.
